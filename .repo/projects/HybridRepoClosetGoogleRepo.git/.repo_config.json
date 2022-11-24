@@ -1,0 +1,32 @@
+{
+  "core.repositoryformatversion": [
+    "0"
+  ],
+  "core.filemode": [
+    "true"
+  ],
+  "core.ignorecase": [
+    "true"
+  ],
+  "core.precomposeunicode": [
+    "true"
+  ],
+  "filter.lfs.smudge": [
+    "git-lfs smudge --skip -- %f"
+  ],
+  "filter.lfs.process": [
+    "git-lfs filter-process --skip"
+  ],
+  "remote.github.url": [
+    "https://github.com/dardo-gonzalez-utility/HybridRepoClosetGoogleRepo"
+  ],
+  "remote.github.projectname": [
+    "dardo-gonzalez-utility/HybridRepoClosetGoogleRepo"
+  ],
+  "remote.github.fetch": [
+    "+refs/heads/*:refs/remotes/github/*"
+  ],
+  "gc.autodetach": [
+    "false"
+  ]
+}

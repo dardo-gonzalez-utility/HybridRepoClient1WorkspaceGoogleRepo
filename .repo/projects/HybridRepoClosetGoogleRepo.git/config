@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	ignorecase = true
+	precomposeunicode = true
+[filter "lfs"]
+	smudge = git-lfs smudge --skip -- %f
+	process = git-lfs filter-process --skip
+[remote "github"]
+	url = https://github.com/dardo-gonzalez-utility/HybridRepoClosetGoogleRepo
+	projectname = dardo-gonzalez-utility/HybridRepoClosetGoogleRepo
+	fetch = +refs/heads/*:refs/remotes/github/*
+[gc]
+	autoDetach = false

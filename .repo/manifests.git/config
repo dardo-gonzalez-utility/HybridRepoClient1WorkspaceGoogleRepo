@@ -1,0 +1,39 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	ignorecase = true
+	precomposeunicode = true
+[filter "lfs"]
+	smudge = git-lfs smudge --skip -- %f
+	process = git-lfs filter-process --skip
+[remote "origin"]
+	url = https://github.com/dardo-gonzalez-utility/HybridRepoClient1WorkspaceGoogleRepo.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[manifest]
+	platform = auto
+[branch "default"]
+	remote = origin
+	merge = refs/heads/main
+[repo "syncstate.main"]
+	synctime = 2022-11-24T19:37:29.330622Z
+	version = 1
+[repo "syncstate.sys"]
+	argv = ['/Users/dardogonzalez/Work/Kubikware/Sources/RepoResearch/HybridRepoClient1WorkspaceGoogleRepo/.repo/repo/main.py', '--repo-dir=/Users/dardogonzalez/Work/Kubikware/Sources/RepoResearch/HybridRepoClient1WorkspaceGoogleRepo/.repo', '--wrapper-version=2.29', '--wrapper-path=/opt/homebrew/bin/repo', '--', 'sync']
+[repo "syncstate.options"]
+	jobs = 10
+	outermanifest = true
+	jobsnetwork = 1
+	jobscheckout = 8
+	mpupdate = true
+	clonebundle = true
+	retryfetches = 0
+	prune = true
+	repoverify = true
+	quiet = false
+	verbose = false
+[repo "syncstate.remote.origin"]
+	url = https://github.com/dardo-gonzalez-utility/HybridRepoClient1WorkspaceGoogleRepo.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[repo "syncstate.branch.default"]
+	remote = origin
+	merge = refs/heads/main

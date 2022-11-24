@@ -1,0 +1,1 @@
+0000000000000000000000000000000000000000 7397c7108a5533cc73360dbbd2e679065f4c26d5 Dardo Gonzalez <dardogonzalez@MacBook-16.local> 1669318648 -0300	fetch --quiet --progress github --prune --recurse-submodules=no --tags +refs/heads/*:refs/remotes/github/* +refs/heads/main:refs/remotes/github/main +refs/tags/*:refs/tags/*: storing head
